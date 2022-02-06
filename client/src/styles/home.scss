@@ -1,0 +1,26 @@
+.home {
+    margin: 0 auto;
+    border: .0313rem solid black;
+    border-radius: .625rem;
+
+    &-title {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    &-container {
+        margin: 1rem;
+    }
+
+    &-input {
+        margin: 1rem;
+        font-size: 1rem;
+        border-radius: .625rem;
+    };
+
+    &-btn {
+        margin: 1rem;
+        border-radius: .625rem;
+        font-size: 1rem;
+    }
+}

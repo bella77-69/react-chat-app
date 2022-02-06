@@ -6,12 +6,14 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server",
+    "setup": "npm i && cd react-chat-app && npm i",
     "dev": "concurrently \"npm run server\" \"cd client && npm start\""
   },
   "author": "bella77-69",
   "license": "ISC",
   "dependencies": {
     "concurrently": "^6.3.0",
+    "cors": "^2.8.5",
     "express": "^4.17.2",
     "nodemon": "^2.0.15",
     "socket.io": "^4.3.1"
